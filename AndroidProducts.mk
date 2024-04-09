@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_daisy.mk \
-    $(LOCAL_DIR)/lineage_sakura.mk
+    $(LOCAL_DIR)/rising_daisy.mk \
+    $(LOCAL_DIR)/rising_sakura.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_daisy-user \
-    lineage_daisy-userdebug \
-    lineage_daisy-eng \
-    lineage_sakura-user \
-    lineage_sakura-userdebug \
-    lineage_sakura-eng
+    rising_daisy-user \
+    rising_daisy-userdebug \
+    rising_daisy-eng \
+    rising_sakura-user \
+    rising_sakura-userdebug \
+    rising_sakura-eng
