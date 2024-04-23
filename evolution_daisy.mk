@@ -14,11 +14,11 @@ AB_OTA_UPDATER := true
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/rising/config/rising.mk)
+$(call inherit-product, vendor/evolution/config/rising.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
-PRODUCT_NAME := rising_daisy
+PRODUCT_NAME := evolution_daisy
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A2 lite
