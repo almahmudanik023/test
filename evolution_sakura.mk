@@ -15,11 +15,11 @@ AB_OTA_UPDATER := false
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/rising/config/rising.mk)
+$(call inherit-product, vendor/evolution/config/rising.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sakura
-PRODUCT_NAME := rising_sakura
+PRODUCT_NAME := evolution_sakura
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 6 Pro
